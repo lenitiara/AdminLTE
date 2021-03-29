@@ -236,9 +236,10 @@ return [
             'can' => 'isAdmin',
         ],
         [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
+            'text' => 'Buku',
+            'url'  => 'admin/books',
+            'icon' => 'fas fa-fw fa-book',
+            'can'  => 'isAdmin',
         ],
         [
             'text'        => 'pages',

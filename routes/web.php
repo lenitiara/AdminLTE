@@ -26,3 +26,9 @@ Route::get('/profil', [App\Http\Controllers\HomeController::class, 'profil'])->n
 Route::get('admin/home', [\App\Http\Controllers\AdminController::class, 'index'])
 ->name('admin.home')
 ->middleware('is_admin');
+
+Route::get('admin/books', [\App\Http\Controllers\AdminController::class, 'books'])
+->name('admin.books')
+->middleware('is_admin');
+
+
